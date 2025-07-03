@@ -19,7 +19,7 @@ const BUCKET_NAME = process.env.BUCKET_NAME;
 const FOLDER_PATH = process.env.FOLDER_PATH;
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://vapayfqgnb.us-west-2.awsapprunner.com'], // or your frontend URL
+  origin: ['http://localhost:3000', 'https://5ma2g9j8y2.us-east-1.awsapprunner.com'], // or your frontend URL
   methods: ['GET', 'POST']
 }));
 
